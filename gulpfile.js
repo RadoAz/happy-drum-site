@@ -7,6 +7,12 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./assets/css'));
 });
 
+gulp.task('fuck', function () {
+  gulp.src('./assets/scss/bootsrap/stylesheets/bootstrap.scss')
+    .pipe(sass({errLogToConsole: true}))
+    .pipe(gulp.dest('./assets/css'));
+});
+
 gulp.task('watch', function() {
   gulp.watch(path, ['sass']);
 });

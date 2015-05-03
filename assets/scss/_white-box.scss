@@ -1,0 +1,13 @@
+.white-box {
+  width: 100%;
+  padding: 40px 0 40px;
+  background-color: $white;
+  overflow: hidden;
+
+  img.img-right {
+    float: right;
+    width: 180px;
+    height: 180px;
+    margin: 20px 0 0 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.title-screen {
+  width: 100%;
+  padding: 120px 0 40px;
+  background-image: url(../images/space-bg.jpg);
+  overflow: hidden;
+
+  .video-wrapper {
+    width: 620px;
+    overflow: hidden;
+    margin: 35px auto;
+  }
+}

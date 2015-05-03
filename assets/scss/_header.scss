@@ -3,22 +3,50 @@ header {
   height: 80px;
   background-color: rgba(247, 253, 254, .95);
   position: fixed;
+  padding: 10px 0;
+  box-sizing: border-box;
 
-  img {
-    width: 70px;
-    height: 70px;
-    float: left;
-  }
+  .header-container {
+    overflow: hidden;
+    width: 930px;
+    margin: 0 auto;
 
-  ul {
-    float: left;
 
-    li {
+    img {
+      width: 70px;
+      height: 70px;
       float: left;
+      margin-top: -6px;
     }
-  }
 
-  .contacts-data {
-    float: right;
+    ul {
+      float: left;
+      margin-top: 25px;
+      list-style-type: none;
+
+      li {
+        float: left;
+        margin-left: 27px;
+
+        a {
+          color: #82868f;
+          font-size: 17px;
+
+          &.active {
+            color: $blue;
+          }
+
+          &:hover {
+            color: $blue;
+            text-decoration: none;
+
+          }
+        }
+      }
+    }
+
+    .contacts-data {
+      float: right;
+    }
   }
 }

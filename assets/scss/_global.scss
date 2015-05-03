@@ -1,0 +1,114 @@
+a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+b {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, a, p, ul {
+  font-family: Myriad Pro;
+}
+
+h1 {
+  font-size: 3em;
+  color: $white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: $white;
+  text-align: center;
+  line-height: 1.4em;
+  font-weight: bold;
+
+  &.blue {
+    color: $blue;
+  }
+}
+
+h3 {
+  font-size: 1.2em;
+  color: $white;
+}
+
+p {
+  font-size: 1.2em;
+  color: $darktext;
+  margin-top: 20px;
+  line-height: 1.2em;
+
+  &.header-p {
+    font-size: 13px;
+    color: $blue;
+    margin: 0;
+    line-height: 14px;
+  }
+
+  &.phone {
+      font-size: 23px;
+      color: $blue;
+      margin: 0;
+      line-height: 1em;
+  }
+}
+
+.container {
+  overflow: hidden;
+  width: 610px;
+  margin: 0 auto;
+}
+
+iframe {
+  width: 610px;
+  height: 300px;
+}
+
+ul {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 20px;
+  list-style-type: disc;
+}
+
+.btn-wrap {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 160px;
+  height: 45px;
+  margin-top: 40px;
+}
+
+button {
+  width: 160px;
+  height: 45px;
+  background-color: $orange;
+  border-radius: 25px;
+  font-size: 1.2em;
+  color: $darktext;
+}
+
+.small-img {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.prop-container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+
+}
+
+.img-left {
+  float: left;
+  width: 180px;
+  height: 180px;
+  margin: 20px 40px 0 0;
+}
