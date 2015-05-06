@@ -17,11 +17,11 @@
        <img src="assets/images/IM_logo.png">
        <ul>
          <li><a href="#">HAPPY DRUM</a></li>
-         <li><a href="#">Почему у нас</a></li>
-         <li><a href="#">Цены</a></li>
-         <li><a href="#">Оплата и доставка</a></li>
-         <li><a href="#">Отзывы</a></li>
-         <li><a href="#">Заказать</a></li>
+         <li><a href="#why_us">Почему у нас</a></li>
+         <li><a href="#price">Цены</a></li>
+         <li><a href="#delivery">Оплата и доставка</a></li>
+         <!--<li><a href="#">Отзывы</a></li>-->
+         <li><a href="#iwant">Заказать</a></li>
        </ul>
        <div class="contacts-data">
          <p class="header-p">Звоните по любым вопросам</p>
@@ -30,6 +30,11 @@
        </div>
      </div>
     </header>
+    <section class="popup" id="popup">
+      <div class="pp_window" id="ppWindow">
+        <img src="assets/images/close.png" id="close">
+      </div>
+    </section>
     <section class="title-screen">
       <div class="container">
         <h1>HAPPY DRUM/ХЭППИ ДРАМ</h1>
@@ -37,7 +42,7 @@
         с доставкой в любую точку мира
         </h2>
         <div class="video-wrapper">
-          <iframe width="420" height="315" src="https://www.youtube.com/embed/IRGqSHZLqlw" frameborder="0" allowfullscreen></iframe>
+          <!--<iframe width="420" height="315" src="https://www.youtube.com/embed/IRGqSHZLqlw" frameborder="0" allowfullscreen></iframe>-->
         </div>
         <h2>Лучший подарок для:</h2>
         <ul>
@@ -48,7 +53,7 @@
           <li>- и конечно же детей, в т.ч. страдающих от гиперактивности.</li>
         </ul>
         <div class="btn-wrap">
-        <button type="button">Заказать</button>
+        <button type="button" class="btnWant">Заказать</button>
         <div>
       </div>
     </section>
@@ -60,7 +65,7 @@
         Это позволяет вполне мелодично играть на нем любому человеку, даже не имеющему никакого музыrального образования и опыта игры на каком-либо инструменте.
         Стиль игры определяется вами .</p>
         <p>Посмотрите видео, которое нам прислал один из клиентов, на нем он играет на “счастливом барабане” в первый раз.</p>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/IRGqSHZLqlw" frameborder="0" allowfullscreen></iframe>
+        <!--<iframe width="420" height="315" src="https://www.youtube.com/embed/IRGqSHZLqlw" frameborder="0" allowfullscreen></iframe>-->
       </div>
     </section>
     <section class="blue-box">
@@ -76,7 +81,7 @@
           <li>и даже структурируют воду;</li>
         </ul>
         <div class="btn-wrap">
-        <button type="button">Заказать</button>
+        <button type="button" class="btnWant">Заказать</button>
         <div>
       </div>
     </section>
@@ -101,7 +106,7 @@
         </div>
       </div>
     </section>
-    <section class="blue-box">
+    <section class="blue-box" id="why_us">
       <div class="container">
         <h2>Почему стоит заказать<br>
         свой личный HAPPY DRUM<br>
@@ -112,89 +117,111 @@
           <li><b>Дизайн.</b> При заказе Вы можете выбрать размер, цвет, форму “лепестков” и даже изображение, которое будет нанесено на Ваш счастливый барабан!</li>
           <li><b>Гравировка.</b> Будет ли гравировка частью дизайна или же памятной надписью с пожеланиями решать Вам!</li>
           <li><b>Качество и долговечность</b>
-            <ul>
-              <li>- Покраска производится оригинальной автомобильной эмалью и лаком с добавлением ксиралиевого пигмента(перламутровый отблеск на дорогих машинах) или без него.</li>
-              <li>- Воронение sыступает в роли защиты от корозии.Качественно сделанное воронение придает инструменту особо эстетичный вид.</li>
-            </ul>
           </li>
+        </ul>
+        <ul class="down-ul">
+          <li>- Покраска производится оригинальной автомобильной эмалью и лаком с добавлением ксиралиевого пигмента (перламутровый отблеск на дорогих машинах) или без него.</li>
+          <li>- Воронение выступает в роли защиты от корозии. Качественно сделанное воронение придает инструменту особо эстетичный вид.</li>
         </ul>
       </div>
     </section>
     <section class="white-box">
       <div class="container">
-        <h2>Как мы работаем?</h2>
+        <h2 class="blue">Как мы работаем?</h2>
         <div class="col-container">
-          <img src="assets/images/Like.png" class="small-img">
-          <h3>Вы делаете заказ</h3>
+          <img src="assets/images/Like.png" class="small-img"><br>
+          <h3 class="blue center-txt">Вы очень хотите Happy Drum</h3>
           <p>позвонив или написав нам.</p>
         </div>
         <div class="col-container">
           <img src="assets/images/Phone.png" class="small-img">
-          <h3>Мы связываемся с Вами</h3>
-          <p>и обговариваем все условия и стоимость вашего
+          <h3 class="blue center-txt">Мы связываемся с Вами</h3>
+          <p>обговариваем все условия и стоимость вашего
           заказа.</p>
         </div>
         <div class="col-container">
           <img src="assets/images/Heart.png" class="small-img">
-          <h3>Изготавливаем Ваш HAPPY DRUM</h3>
+          <h3 class="blue center-txt">Изготавливаем Ваш HAPPY DRUM</h3>
           <p>вкладывая свое сердце и душу в каждый счастливый барабан.</p>
         </div>
         <div class="col-container">
-          <img src="assets/images/Delivery.png" class="img-left">
-          <h3>"Хэппи драм"" отправляется к Вам!</h3>
+          <img src="assets/images/Delivery.png" class="small-img">
+          <h3 class="blue center-txt">"Хэппи драм"" отправляется к Вам!</h3>
           <p>и вам остается только принять его и оплатить при получении!</p>
         </div>
+        <div class="clearfix"></div>
         <div class="btn-wrap">
-        <button type="button">Заказать</button>
+        <button type="button" class="btnWant">Заказать</button>
         <div>
       </div>
     </section>
-    <section class="blue-box">
+    <section class="blue-box" id="price">
       <div class="container">
         <h2>Сколько стоит HAPPY DRUM?</h2>
-        <p>В отличие от своего собрата HANG’а, стоимость которого только начинается на отместке в $600, Happy DRUM является более демократичным по цене, но не менее мелодичным по своим музыкальным характеристикам инструментом.
-        Мы делаем все вохможное, чтобы каждый желающий имел возможность получить свой HAPPY DRUM и стать счастливым. Однако изготовление HAPPY DRUM - это хотя и приятный, но в то же время трудоемкий и ресурсозатратный процесс.
-        В нашей матерской стоимость HAPPY DRUM начинается от 1800 грн. Точная стоимость будет просчитана после полного обсуждения того, каким бы вы хотели выдеть свой личный счастливый барабан!</p>
+        <p>В отличие от своего собрата HANG’а, стоимость которого только начинается на отместке в $600, Happy DRUM является более демократичным по цене, но не менее мелодичным по своим музыкальным характериститкам инструментом.<br><br>
+        Мы делаем все возможное, чтобы каждый желающий имел возможность получить свой HAPPY DRUM, и стал по-настоящему счастливым! Однако изготовление HAPPY DRUM - это, хотя и приятный, но в то же время трудоемкий и ресурсозатратный процесс.<br><br>
+        В нашей матерской стоимость HAPPY DRUM начинается от 1800 грн. Точная стоимость будет просчитана после полного обсуждения того, каким бы вы хотели выдеть свой личный счастливый барабан: его размер, дизайн, тип покраски, форма лепестков, наличие или отсутствие гравировки</p><br>
 
-        <p>Просто позвоните нам или же оставьте свои данные в форме заказа и мы сделаем просчет БЕСПЛАТНО!</p>
+        <p>Просто позвоните нам или найдите нас VKONTAKTE и мы сделаем просчет БЕСПЛАТНО!</p>
         <div class="btn-wrap">
-        <button type="button">Заказать</button>
+        <button type="button" class="btnWant">Заказать</button>
         <div>
       </div>
     </section>
-    <section class="white-box">
+    <section class="white-box" id="delivery">
       <div class="container">
-        <h2>Оплата и доставка</h2>
+        <h2 class="blue">Оплата и доставка</h2>
         <p>Доставка по Украине совершается “Новой почтой” наложенным платежом!</p>
         <img src="assets/images/nova-poshta-logo.png">
         <p>При заказе счастливого барабана в любую другую страну, способ оплаты и доставки определяется индивидуально!</p>
       </div>
     </section>
-    <section class="blue-box">
+    <section class="blue-box" id="iwant">
       <div class="container">
-        <h2>А перед тем как окончательно принять решение, посмотрите это видео и послушайте музыку;)</h2>
-        <video></video>
+        <h2>А перед тем как окончательно принять решение, посмотрите это видео, расслабьтесь и послушайте его волшебное звучание;)</h2>
+     <!---   <iframe width="420" height="315" src="https://www.youtube.com/embed/IRGqSHZLqlw" frameborder="0" allowfullscreen></iframe> -->
         <div class="btn-wrap">
-        <button type="button">Заказать</button>
+        <button type="button" class="btnWant">Заказать</button>
         <div>
       </div>
     </section>
     <footer>
-      <div class="container">
-        <img src="assets/images/IM_logo.png">
-        <img src="assets/images/stechkin.png">
+      <div class="footer-container">
+        <img src="assets/images/stechkin_logo.png" class="ufo-img">
+        <img src="assets/images/ufo_logo.png" class="round-img">
         <div class="social">
-          <img src="assets/images/vk.png">
-          <img src="assets/images/fb.png">
-          <img src="assets/images/instagram.png">
-          <img src="assets/images/mail.png">
+          <div class='sprite vk'></div>
+          <div class='sprite fb'></div>
+          <div class='sprite insta'></div>
+          <div class='sprite mail'></div>
+
+          <!--<a href="#"><img src="assets/images/vk.png" class="vk" id="vk"></a>
+          <a href="#"><img src="assets/images/fb.png" class="fb" id="fb"></a>
+          <a href="#"><img src="assets/images/instagram.png" class="insta" id="insta"></a>
+          <a href="#"><img src="assets/images/mail.png" class="mail" id="mail"></a>-->
         </div>
         <p>&copy; Copyright ЧП “Инопланетная мастерская” 2015</p>
       </div>
+      <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+      <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+      <script type="text/javascript">
+
+        $(function() {
+            $(".btnWant").click(function () {
+                $("#popup").css({display: "block"});
+
+                $("#ppWindow").show({
+                    duration: 300,
+                });
+            });
+
+            $("#close").click(function () {
+                $("#ppWindow").hide(300);
+                $("#popup").css({display: 'none'});
+            });
+        })
+      </script>
     </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/bootstrap/js/bootstrap.js"></script>
   </body>
 </html>

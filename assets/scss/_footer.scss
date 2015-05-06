@@ -1,0 +1,87 @@
+footer {
+  width: 100%;
+  height: 110px;
+  background-color: #45494d;
+  padding: 20px 0;
+  box-sizing: border-box;
+
+  .footer-container {
+    overflow: hidden;
+    width: 930px;
+    margin: 0 auto;
+
+    .round-img {
+      width: 70px;
+      height: 70px;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .ufo-img {
+      width: 120px;
+      height: 60px;
+      float: left;
+      margin-right: 20px;
+      margin-top: 5px;
+
+    }
+
+    .social {
+      float: right;
+      margin-top: 15px;
+      box-sizing: border-box;
+      position: relative;
+
+      p {
+        clear: both;
+        font-size: 12px;
+        position: absolute;
+        top: 13px;
+        right: 45px;
+      }
+
+      .sprite {
+        background: url(../images/sprites-soc.png) no-repeat;
+        height: 50px;
+        width: 50px;
+      }
+
+      .vk, .fb, .insta, .mail {
+        float: left;
+        margin-right: 5px;
+        background-size: cover;
+      }
+
+      .vk {
+        background-position: 0px 0px;
+
+        &:hover {
+          background-position: 0px -57px;
+        }
+      }
+
+      .fb {
+        background-position: 0px -114px;
+
+        &:hover {
+          background-position: 0px -174px;
+        }
+      }
+
+      .insta {
+        background-position: 0px -234px;
+
+        &:hover {
+          background-position: 0px -293px;
+        }
+      }
+
+      .mail {
+        background-position: 0px -352px;
+
+        &:hover {
+          background-position: 0px -410px;
+        }
+      }
+  }
+}

@@ -23,15 +23,19 @@ h2 {
   text-align: center;
   line-height: 1.4em;
   font-weight: bold;
+}
 
-  &.blue {
+.blue {
     color: $blue;
   }
-}
 
 h3 {
   font-size: 1.2em;
   color: $white;
+}
+
+.center-txt {
+  text-align: center;
 }
 
 p {
@@ -59,6 +63,17 @@ p {
   overflow: hidden;
   width: 610px;
   margin: 0 auto;
+
+    .col-container {
+      width: 120px;
+      float: left;
+      margin-right: 30px;
+
+      p {
+        font-size: 14px;
+        color: #7d8283;
+      }
+    }
 }
 
 iframe {
@@ -72,6 +87,14 @@ ul {
   line-height: 1.5em;
   margin-top: 20px;
   list-style-type: disc;
+
+    li {
+      margin-bottom: 10px;
+
+      &.down-ul {
+        margin-top: 0;
+      }
+    }
 }
 
 .btn-wrap {
@@ -80,15 +103,16 @@ ul {
   width: 160px;
   height: 45px;
   margin-top: 40px;
-}
+  clear: both;
 
-button {
-  width: 160px;
-  height: 45px;
-  background-color: $orange;
-  border-radius: 25px;
-  font-size: 1.2em;
-  color: $darktext;
+  button {
+    width: 160px;
+    height: 45px;
+    background-color: $orange;
+    border-radius: 25px;
+    font-size: 1.2em;
+    color: $darktext;
+  }
 }
 
 .small-img {
@@ -97,18 +121,23 @@ button {
   float: left;
   margin-top: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .prop-container {
   width: 100%;
   overflow: hidden;
   margin-top: 20px;
-
 }
 
 .img-left {
   float: left;
   width: 180px;
   height: 180px;
-  margin: 20px 40px 0 0;
+  margin: 20px 40px 15px 0;
+}
+
+.clearfix {
+  clear: both;
+  content: "";
 }

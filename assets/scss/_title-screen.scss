@@ -1,8 +1,9 @@
 .title-screen {
   width: 100%;
   padding: 120px 0 40px;
-  background-image: url(../images/space-bg.jpg);
+  background: url(../images/space-bg.jpg);
   overflow: hidden;
+  background-size: cover;
 
   .video-wrapper {
     width: 620px;

@@ -1,0 +1,28 @@
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(69, 73, 77, .7);
+  z-index: 6;
+  display: none;
+
+  .pp_window {
+    background: $white;
+    border-radius: 25px;
+    width: 610px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    img {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+  }
+}
